@@ -1,0 +1,8 @@
+// Used to help VSCode utilise intelliSense (auto-complete, suggestions, etc) 
+// for the project which gets suppressed due to setting NODE_PATH=src in .env file.
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "baseUrl": "."
+  }
+}

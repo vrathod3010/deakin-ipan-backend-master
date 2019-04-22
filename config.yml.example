@@ -1,0 +1,20 @@
+# Default status for resources
+defaults:
+  programs: active
+  modules: locked
+  activities: active
+  tasks: active
+
+automatic_activation:
+  programs: false
+  modules: false
+  activities: false
+  tasks: false
+
+walk:
+  enabled: true
+  mode: default # The mode for walking
+
+  # Can be user/CRON or both
+  # If it is CRON, the first occurance of every resource will be activated by default
+  trigger: user

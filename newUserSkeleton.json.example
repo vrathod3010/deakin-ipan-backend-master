@@ -1,0 +1,45 @@
+{
+  "firstName": "Mary",
+  "lastName": "Who",
+  "password": "password",
+  "mobile": "61435217377",
+  "profile": {
+    "dob": "2018-12-19",
+    "gender": "FEMALE",
+    "calendar": [],
+    "programsData": [
+      {
+        "programId": 1,
+        "modules": [
+          {
+            "moduleId": 1,
+            "activities": [
+              {
+                "activityId": 1
+              },
+              {
+                "activityId": 2
+              }
+            ],
+            "tasks": [
+              {
+                "taskId": 1
+              }
+            ]
+          },
+          {
+            "moduleId": 2,
+            "activities": [
+              {
+                "activityId": 4
+              },
+              {
+                "activityId": 5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
